@@ -37,9 +37,15 @@ while (again == "a")
         Console.Write("Neplatný vstup. Zadejte prosím celé číslo: ");
     }
 
+    //Výpis číselné řady
     Console.WriteLine();
-    Console.WriteLine("Pro opakování programu stiknětě klávesu *A*");
-    again = Console.ReadLine();
+    Console.WriteLine("========================================================");
+    Console.WriteLine("Zadali jste tyto hodnoty:");
+    Console.WriteLine("První číslo řady: " + first);
+    Console.WriteLine("Poslední číslo řady: " + last);
+    Console.WriteLine("Diferenci mezi číslicemi: " + step);
+    Console.WriteLine("========================================================");
+    
 
 
 
