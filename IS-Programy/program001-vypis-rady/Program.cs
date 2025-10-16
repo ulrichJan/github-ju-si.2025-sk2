@@ -41,10 +41,11 @@ while (again == "a")
     Console.WriteLine();
     Console.WriteLine("========================================================");
     Console.WriteLine("Zadali jste tyto hodnoty:");
-    Console.WriteLine("První číslo řady: " + first);
-    Console.WriteLine("Poslední číslo řady: " + last);
-    Console.WriteLine("Diferenci mezi číslicemi: " + step);
+    Console.WriteLine("První číslo řady: {0} " , first);
+    Console.WriteLine("Poslední číslo řady: {0} ",  last);
+    Console.WriteLine("Diferenci mezi číslicemi: {0}" ,   step);
     Console.WriteLine("========================================================");
+    Console.WriteLine();
     
 
 
