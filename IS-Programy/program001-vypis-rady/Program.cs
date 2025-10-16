@@ -37,16 +37,31 @@ while (again == "a")
         Console.Write("Neplatný vstup. Zadejte prosím celé číslo: ");
     }
 
-    //Výpis číselné řady
+    //Výpis hodnot
     Console.WriteLine();
     Console.WriteLine("========================================================");
     Console.WriteLine("Zadali jste tyto hodnoty:");
-    Console.WriteLine("První číslo řady: {0} " , first);
-    Console.WriteLine("Poslední číslo řady: {0} ",  last);
-    Console.WriteLine("Diferenci mezi číslicemi: {0}" ,   step);
+    Console.WriteLine("První číslo řady: {0} ", first);
+    Console.WriteLine("Poslední číslo řady: {0} ", last);
+    Console.WriteLine("Diferenci mezi číslicemi: {0}", step);
     Console.WriteLine("========================================================");
+    Console.WriteLine("První číslo řady je: {0}; Poslední číslo řady je: {1}; Diference mezi číslicemi je: {2}", first, last, step);
+    Console.WriteLine("========================================================");
+
+  //Výpis číselné řady
     Console.WriteLine();
+    Console.WriteLine("========================================================");
+    Console.WriteLine("Číselná řada je:");
     
+    int current = first;
+    while (current <= last)
+    {
+        Console.WriteLine(current);
+        current = current + step;
+    }
+    again = Console.ReadLine();
+
+
 
 
 
