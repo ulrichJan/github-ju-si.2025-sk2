@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "program004c-tri-obrazce-nahrada-cviceni/1.0.0": {
+        "runtime": {
+          "program004c-tri-obrazce-nahrada-cviceni.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "program004c-tri-obrazce-nahrada-cviceni/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

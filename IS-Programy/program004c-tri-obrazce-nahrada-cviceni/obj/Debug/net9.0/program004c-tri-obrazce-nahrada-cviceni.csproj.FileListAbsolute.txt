@@ -1,0 +1,15 @@
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\bin\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.exe
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\bin\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.deps.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\bin\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.runtimeconfig.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\bin\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\bin\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.AssemblyInfoInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.AssemblyInfo.cs
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.csproj.CoreCompileInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.sourcelink.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\refint\program004c-tri-obrazce-nahrada-cviceni.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\program004c-tri-obrazce-nahrada-cviceni.genruntimeconfig.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program004c-tri-obrazce-nahrada-cviceni\obj\Debug\net9.0\ref\program004c-tri-obrazce-nahrada-cviceni.dll
