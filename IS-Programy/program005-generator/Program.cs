@@ -67,11 +67,31 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
+    // počítání statistik
+    int nula = 0;
+    int kladna = 0;
+    int zaporna = 0;
+    int suda = 0;
+    int licha = 0;
 
+    for (int i = 0; i < n; i++)
+    {
+        if (myRandNums[i] > 0) kladna++;
+        if (myRandNums[i] < 0) zaporna++;
+        if (myRandNums[i] == 0) nula++;
+        if (myRandNums[i] % 2 == 0) suda++;
+        else licha++;
+    }
 
-
-
-
+    Console.WriteLine();
+    Console.WriteLine("=========================================");
+    Console.WriteLine("Statistiky vygenerovaných čísel:");
+    Console.WriteLine("Kladná čísla: " + kladna);
+    Console.WriteLine("Záporná čísla: " + zaporna);
+    Console.WriteLine("Sudá čísla: " + suda);
+    Console.WriteLine("Lichá čísla: " + licha);
+    Console.WriteLine("Počet nul: " + nula);
+    Console.WriteLine("=========================================");
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
     again = Console.ReadLine();
