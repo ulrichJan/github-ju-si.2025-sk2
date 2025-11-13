@@ -9,7 +9,7 @@ while (again == "a")
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine("************* Jan Ulrich  ******************");
-    Console.WriteLine("************** 6.11.2025 *******************");
+    Console.WriteLine("************** 13.11.2025 ******************");
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine();
@@ -61,6 +61,28 @@ while (again == "a")
     {
         Console.Write(myRandNums[i] + " ");
     }
+
+    //hlednání maxima, pozice maxima, minima, pozice minima
+    int max = myRandNums[0];
+    int min = myRandNums[0];
+    int posMax = 0;
+    int posMin = 0;
+
+    for (int i = 1; i < n; i++)
+    {
+        if (myRandNums[i] > max)
+        {
+            max = myRandNums[i];
+            posMax = i;
+        }
+        if (myRandNums[i] < min)
+        {
+            min = myRandNums[i];
+            posMin = i;
+        }
+    }
+
+    //Vykreslování přesípacích hodin
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
