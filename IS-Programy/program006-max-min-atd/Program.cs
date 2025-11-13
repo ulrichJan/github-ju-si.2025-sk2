@@ -105,11 +105,41 @@ while (again == "a")
         for (int i = 0; i < max; i++)
         {
             int spaces, stars;
+
+            if (i < (max) / 2) // Horní polovina přesípacích hodin
+            {
+                spaces = i;
+                stars = max - 2 * i;
+            }
+            else // Dolní polovina přesípacích hodin
+            {
+                spaces = max - i - 1;
+                if (max % 2 == 1) // liché max
+                {
+                    stars = 2 * (i - max / 2) + 1;
+                }
+                else // sudé max
+                {
+                    stars = 2 * (i - max / 2 )+ 2;
+                }
+            }
+            // vykreslení mezer pro každý řádek
+            for (int sp = 0; sp < spaces; sp++)
+            {
+                Console.Write(" ");   
+            }
+                // vykreslení hvezdiček pro každý řádek     
+                for (int st = 0; st < stars; st++)
+                {
+                Console.Write("*"); 
+                }   
+                
+                Console.WriteLine();
+            
         }
 
-    }
-    else
-    {
+    }    
+    else    {
         Console.WriteLine("Maximální hodnota je příliš malá na vykreslení přesípacích hodin.");
     }
 
