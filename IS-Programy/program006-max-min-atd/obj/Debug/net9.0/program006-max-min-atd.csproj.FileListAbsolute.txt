@@ -1,0 +1,15 @@
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\bin\Debug\net9.0\program006-max-min-atd.exe
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\bin\Debug\net9.0\program006-max-min-atd.deps.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\bin\Debug\net9.0\program006-max-min-atd.runtimeconfig.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\bin\Debug\net9.0\program006-max-min-atd.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\bin\Debug\net9.0\program006-max-min-atd.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.AssemblyInfoInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.AssemblyInfo.cs
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.csproj.CoreCompileInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.sourcelink.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\refint\program006-max-min-atd.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\program006-max-min-atd.genruntimeconfig.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program006-max-min-atd\obj\Debug\net9.0\ref\program006-max-min-atd.dll
