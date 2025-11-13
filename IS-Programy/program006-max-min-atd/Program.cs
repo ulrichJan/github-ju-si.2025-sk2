@@ -82,6 +82,15 @@ while (again == "a")
         }
     }
 
+
+    Console.WriteLine();
+    Console.WriteLine("==========================================");
+    Console.WriteLine($"Maximum: {max}");
+    Console.WriteLine($"Pozice maxima v poli: {posMax}");
+    Console.WriteLine($"Minimum: {min}");
+    Console.WriteLine($"Pozice minima v poli: {posMin}");
+    Console.WriteLine("==========================================");
+
     //Vykreslování přesípacích hodin
 
     Console.WriteLine();
