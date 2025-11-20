@@ -62,23 +62,32 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
-    int compare = 0;
-    int change = 0;
-    
+    Stopwatch myStopwatch = new Stopwatch();
+
+
+    int compare = 0; //počet porovnání
+    int change = 0; //počet výměn
+
+    myStopwatch.Start();
+
     //bubble sort
     for (int i = 0; i < n - 1; i++)
     {
+        
         for (int j = 0; j < n - i - 1; j++)
         {
+            compare++;
             if (myRandNums[j] > myRandNums[j + 1])
             {
                 //swap
                 int temp = myRandNums[j];
                 myRandNums[j] = myRandNums[j + 1];
                 myRandNums[j + 1] = temp;
+                change++;
             }
         }
     }
+    myStopwatch.Stop();
 
     Console.WriteLine();
     Console.WriteLine("Seřazená čísla jsou:");
@@ -87,6 +96,10 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
+    Console.WriteLine();
+    Console.WriteLine("Počet porovnání: {0}", compare);
+    Console.WriteLine("Počet výměn: {0}", change);
+    Console.WriteLine("Doba běhu: {0} ms", myStopwatch.Elapsed);
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
