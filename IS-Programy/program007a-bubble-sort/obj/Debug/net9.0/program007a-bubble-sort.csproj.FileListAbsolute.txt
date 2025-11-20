@@ -1,0 +1,15 @@
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\bin\Debug\net9.0\program007a-bubble-sort.exe
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\bin\Debug\net9.0\program007a-bubble-sort.deps.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\bin\Debug\net9.0\program007a-bubble-sort.runtimeconfig.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\bin\Debug\net9.0\program007a-bubble-sort.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\bin\Debug\net9.0\program007a-bubble-sort.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.AssemblyInfoInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.AssemblyInfo.cs
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.csproj.CoreCompileInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.sourcelink.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\refint\program007a-bubble-sort.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\program007a-bubble-sort.genruntimeconfig.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program007a-bubble-sort\obj\Debug\net9.0\ref\program007a-bubble-sort.dll

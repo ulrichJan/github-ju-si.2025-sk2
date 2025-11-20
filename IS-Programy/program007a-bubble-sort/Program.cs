@@ -9,7 +9,7 @@ while (again == "a")
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine("************* Jan Ulrich  ******************");
-    Console.WriteLine("************** 6.11.2025 *******************");
+    Console.WriteLine("************** 20.11.2025 ******************");
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine();
@@ -41,14 +41,10 @@ while (again == "a")
         Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
     }
 
-
-
-
     Console.WriteLine();
     Console.WriteLine("=========================================");
     Console.WriteLine("Počet čísel: {0}, Dolní mez: {1}, Horní mez: {2}", n, lb, ub);
     Console.WriteLine("=========================================");
-
 
     //deklarace pole
     int[] myRandNums = new int[n];
@@ -58,7 +54,6 @@ while (again == "a")
     {
         myRandNums[i] = rand.Next(lb, ub + 1); // +1 protože horní mez je exkluzivní
     }
-
     
     //výpis pole
     Console.WriteLine("Generovaná čísla jsou:");
@@ -67,9 +62,30 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
+    int compare = 0;
+    int change = 0;
+    
+    //bubble sort
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (myRandNums[j] > myRandNums[j + 1])
+            {
+                //swap
+                int temp = myRandNums[j];
+                myRandNums[j] = myRandNums[j + 1];
+                myRandNums[j + 1] = temp;
+            }
+        }
+    }
 
-
-
+    Console.WriteLine();
+    Console.WriteLine("Seřazená čísla jsou:");
+    for (int i = 0; i < n; i++)
+    {
+        Console.Write(myRandNums[i] + " ");
+    }
 
 
     Console.WriteLine();
