@@ -87,7 +87,9 @@ while (again == "a")
             }
         }
     }
-    myStopwatch.Stop();
+    myStopwatch.Stop();   
+
+    
 
     Console.WriteLine();
     Console.WriteLine("Seřazená čísla jsou:");
@@ -95,6 +97,14 @@ while (again == "a")
     {
         Console.Write(myRandNums[i] + " ");
     }
+
+    //druhé největší číslo v seřazeném poli    
+    Console.WriteLine();
+    Console.WriteLine("Druhé největší číslo je: {0}", myRandNums[n - 2]);
+
+        
+
+
 
     Console.WriteLine();
     Console.WriteLine("Počet porovnání: {0}", compare);
