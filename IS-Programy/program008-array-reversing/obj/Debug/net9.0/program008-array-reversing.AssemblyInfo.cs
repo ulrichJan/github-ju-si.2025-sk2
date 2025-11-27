@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("program008-array-reversing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c655492f6e58c547999a98e36d2f1329e0ecf672")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70e6b77566c52cb048331c6099e5add33f11d0ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("program008-array-reversing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("program008-array-reversing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

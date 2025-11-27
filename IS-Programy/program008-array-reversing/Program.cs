@@ -5,7 +5,7 @@ while (again == "a")
 {
     Console.Clear();
     Console.WriteLine("********************************************");
-    Console.WriteLine("******** Generrátor random  čísel **********");
+    Console.WriteLine("***************** Reverze pole  ************");
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine("************* Jan Ulrich  ******************");
@@ -58,7 +58,6 @@ while (again == "a")
     {
         myRandNums[i] = rand.Next(lb, ub + 1); // +1 protože horní mez je exkluzivní
     }
-
     
     //výpis pole
     Console.WriteLine("Generovaná čísla jsou:");
@@ -67,7 +66,20 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
+    for (int i=0; i < n / 2; i++)
+    {
+        int temp = myRandNums[i];
+        myRandNums[i] = myRandNums[n - 1 - i];
+        myRandNums[n - 1 - i] = temp;
+    }
 
+    //vypsání pole po rezerzi
+    Console.WriteLine();
+    Console.WriteLine("Čísla po reverzi jsou:");
+    for (int i = 0; i < n; i++)
+    {
+        Console.Write(myRandNums[i] + " ");
+    }
 
 
 
