@@ -9,7 +9,7 @@ while (again == "a")
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine("************* Jan Ulrich  ******************");
-    Console.WriteLine("************** 20.11.2025 ******************");
+    Console.WriteLine("************** 27.11.2025 ******************");
     Console.WriteLine("********************************************");
     Console.WriteLine("********************************************");
     Console.WriteLine();
@@ -41,10 +41,14 @@ while (again == "a")
         Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
     }
 
+
+
+
     Console.WriteLine();
     Console.WriteLine("=========================================");
     Console.WriteLine("Počet čísel: {0}, Dolní mez: {1}, Horní mez: {2}", n, lb, ub);
     Console.WriteLine("=========================================");
+
 
     //deklarace pole
     int[] myRandNums = new int[n];
@@ -54,6 +58,7 @@ while (again == "a")
     {
         myRandNums[i] = rand.Next(lb, ub + 1); // +1 protože horní mez je exkluzivní
     }
+
     
     //výpis pole
     Console.WriteLine("Generovaná čísla jsou:");
@@ -62,78 +67,13 @@ while (again == "a")
         Console.Write(myRandNums[i] + " ");
     }
 
-    Stopwatch myStopwatch = new Stopwatch();
-
-
-    int compare = 0; //počet porovnání
-    int change = 0; //počet výměn
-
-    myStopwatch.Start();
-
-    //bubble sort
-    for (int i = 0; i < n - 1; i++)
-    {
-        
-        for (int j = 0; j < n - i - 1; j++)
-        {
-            compare++;
-            if (myRandNums[j] > myRandNums[j + 1])
-            {
-                //swap
-                int temp = myRandNums[j];
-                myRandNums[j] = myRandNums[j + 1];
-                myRandNums[j + 1] = temp;
-                change++;
-            }
-        }
-    }
-    myStopwatch.Stop();
-
-    
-
-    Console.WriteLine();
-    Console.WriteLine("Seřazená čísla jsou:");
-    for (int i = 0; i < n; i++)
-    {
-        Console.Write(myRandNums[i] + " ");
-    }
-
-    //druhé největší číslo v seřazeném poli (hledá druhé největší RŮZNÉ číslo)
-    Console.WriteLine();
-    if (n < 2)
-    {
-        Console.WriteLine("Pole nemá dost prvků pro určení druhého největšího čísla.");
-    }
-    else
-    {
-        int max = myRandNums[n - 1];
-        int? secondDistinct = null;
-        for (int k = n - 2; k >= 0; k--)
-        {
-            if (myRandNums[k] < max)
-            {
-                secondDistinct = myRandNums[k];
-                break;
-            }
-        }
-
-        if (secondDistinct.HasValue)
-            Console.WriteLine("Druhé největší číslo (různé) je: {0}", secondDistinct.Value);
-        else
-            Console.WriteLine("Druhé největší číslo neexistuje (všechna čísla jsou shodná nebo není druhý rozdílný prvek).");
-    }
-
-        
 
 
 
-    Console.WriteLine();
-    Console.WriteLine("Počet porovnání: {0}", compare);
-    Console.WriteLine("Počet výměn: {0}", change);
-    Console.WriteLine("Doba běhu: {0} ms", myStopwatch.Elapsed);
+
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
-    again = Console.ReadLine() ?? "";
+    again = Console.ReadLine();
 
 }
