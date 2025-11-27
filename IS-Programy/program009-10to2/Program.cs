@@ -17,12 +17,27 @@ while (again == "a")
     //int first = int.Parse(Console.ReadLine());
 
     // Vstup hodnoty do programu, řešený lépe
-    Console.Write("Zadejte první číslo řady (celé číslo): ");
-    int first;
-    while (!int.TryParse(Console.ReadLine(), out first))
+    Console.Write("Zadejte desítkové číslo (přirozené číslo): ");
+    uint number10;
+    while (!uint.TryParse(Console.ReadLine(), out number10))
     {
-        Console.Write("Nezadali jste celé číslo. Zadejte první číslo řady znovu: ");
+        Console.Write("Nezadali jste přirozené číslo. Zadejte číslo znovu: ");
     }
+
+    // Převod z desítkové do dvojkové soustavy
+    string number2 = "";
+    do
+    {
+        uint remainder = number10 % 2;
+        number2 = remainder.ToString() + number2;
+        number10 = number10 / 2;
+    } while (number10 > 0);
+
+    // Výpis výsledku
+    Console.WriteLine();
+    Console.WriteLine("Číslo v dvojkové soustavě je: " + number2);
+
+
 
 
 
