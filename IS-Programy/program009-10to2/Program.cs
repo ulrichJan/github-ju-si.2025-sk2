@@ -25,26 +25,25 @@ while (again == "a")
     }
 
     // Převod z desítkové do dvojkové soustavy
-    string number2 = "";
-    do
+    uint[]myArray = new uint[32];
+    uint backupNumber = number10;
+    uint zbytek;
+
+    int i;
+    for (i = 0; backupNumber > 0; i++)
     {
-        uint remainder = number10 % 2;
-        number2 = remainder.ToString() + number2;
-        number10 = number10 / 2;
-    } while (number10 > 0);
+        zbytek = backupNumber % 2;
+        myArray[i] = zbytek;
+        backupNumber = backupNumber / 2;
+    }
 
     // Výpis výsledku
     Console.WriteLine();
-    Console.WriteLine("Číslo v dvojkové soustavě je: " + number2);
-
-
-
-
-
-
-
-
-
+    Console.Write("Číslo " + number10 + " v dvojkové soustavě je: ");
+    for (int j = i - 1; j >= 0; j--)
+    {
+        Console.Write(myArray[j]);
+    }
 
     Console.WriteLine();
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
