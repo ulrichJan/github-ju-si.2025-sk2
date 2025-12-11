@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Linq;
 
 string again = "a";
 while (again == "a")
@@ -25,12 +26,28 @@ while (again == "a")
     {
         Console.Write("Nezadali jste celé číslo. Zadejte počet znovu: ");
     }
+    while (n < 0)
+    {
+        Console.Write("Počet musí být nezáporné celé číslo. Zadejte počet znovu: ");
+        while (!int.TryParse(Console.ReadLine(), out n))
+        {
+            Console.Write("Nezadali jste celé číslo. Zadejte počet znovu: ");
+        }
+    }
 
     Console.Write("Zadejte dolní mez (celé číslo): ");
     int lb; // lower bound
     while (!int.TryParse(Console.ReadLine(), out lb))
     {
         Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
+    }
+    while (lb < 0)
+    {
+        Console.Write("Dolní mez musí být přirozené číslo (>= 0). Zadejte dolní mez znovu: ");
+        while (!int.TryParse(Console.ReadLine(), out lb))
+        {
+            Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
+        }
     }
 
     Console.Write("Zadejte horní mez (celé číslo): ");
@@ -39,6 +56,15 @@ while (again == "a")
     while (!int.TryParse(Console.ReadLine(), out ub))
     {
         Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
+    }
+
+    while (ub < lb)
+    {
+        Console.Write("Horní mez musí být větší nebo rovna dolní meze. Zadejte horní mez znovu: ");
+        while (!int.TryParse(Console.ReadLine(), out ub))
+        {
+            Console.Write("Nezadali jste celé číslo. Zadejte mez znovu: ");
+        }
     }
 
 
@@ -69,7 +95,39 @@ while (again == "a")
 
 
     Console.WriteLine();
+    // Rozdělení základního intervalu na 4 části a spočítání počtu čísel v každém
+    int totalRange = ub - lb + 1; // počet čísel včetně obou mezí
+    if (totalRange <= 0)
+    {
+        Console.WriteLine("Neplatný interval (žádná čísla v rozsahu).\n");
+    }
+    else
+    {
+        int baseWidth = totalRange / 4;
+        int remainder = totalRange % 4; // přerozdělíme zbytek mezi první intervaly
+        int start = lb;
+        for (int part = 0; part < 4; part++)
+        {
+            int width = baseWidth + (part < remainder ? 1 : 0);
+            int end = start + width - 1;
+            if (width <= 0)
+            {
+                // Pokud je šířka 0 (např. příliš úzký interval), nastavíme end tak, aby byl start-1
+                end = start - 1;
+            }
+
+            int count = 0;
+            for (int i = 0; i < n; i++)
+            {
+                if (myRandNums[i] >= start && myRandNums[i] <= end)
+                    count++;
+            }
+
+            Console.WriteLine("Počet čísel v intervalu <{0}-{1}>: {2}", start, end, count);
+            start = end + 1;
+        }
+    }
     Console.WriteLine("Pro opakování programu stiskněte klávesu a");
-    again = Console.ReadLine();
+    again = Console.ReadLine() ?? "";
 
 }

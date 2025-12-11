@@ -1,0 +1,15 @@
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\bin\Debug\net9.0\program012a_interval.exe
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\bin\Debug\net9.0\program012a_interval.deps.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\bin\Debug\net9.0\program012a_interval.runtimeconfig.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\bin\Debug\net9.0\program012a_interval.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\bin\Debug\net9.0\program012a_interval.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.AssemblyInfoInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.AssemblyInfo.cs
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.csproj.CoreCompileInputs.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.sourcelink.json
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\refint\program012a_interval.dll
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.pdb
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\program012a_interval.genruntimeconfig.cache
+C:\Users\janul\Desktop\IS\github-ju-si.2025-sk2\IS-Programy\program012a_interval\obj\Debug\net9.0\ref\program012a_interval.dll
